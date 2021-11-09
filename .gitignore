@@ -1,0 +1,11 @@
+*.lock
+
+node_modules
+
+/dist
+
+*-lock.json
+
+.nuxt/
+
+.next/
