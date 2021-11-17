@@ -1,10 +1,10 @@
 {
-  "name": "sure-vite",
+  "name": "sure-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "sure-vite": "bin/vite.js"
+    "sure-cli": "bin/cli.js"
   },
   "scripts": {
     "test": ""
@@ -13,11 +13,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "dependencies": {
     "chalk": "^4.1.2",
-    "dayjs": "^1.10.7",
-    "es-module-lexer": "^0.9.3",
-    "koa": "^2.13.4",
-    "koa-static": "^5.0.0",
-    "magic-string": "^0.25.7"
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.0",
+    "log-symbols": "4",
+    "ora": "5"
   }
 }
